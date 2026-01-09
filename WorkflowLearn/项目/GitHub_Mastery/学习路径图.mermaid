@@ -1,0 +1,42 @@
+# 学习路径图：GitHub Mastery
+
+```mermaid
+graph LR
+    %% 样式定义
+    classDef done fill:#d4fae8,stroke:#00b894,color:#000
+    classDef active fill:#74b9ff,stroke:#0984e3,color:#fff,stroke-width:2px
+    classDef future fill:#dfe6e9,stroke:#b2bec3,color:#636e72
+    classDef threshold fill:#ff7675,stroke:#d63031,color:#fff,stroke-dasharray: 5 5
+
+    %% 节点定义
+    Step1(01. 破冰: Git与GitHub):::active
+    Step2[02. 单兵: 提交三部曲]:::future
+    Step3[03. 穿越: 时光倒流]:::future
+    Step4[04. 分支: 平行宇宙]:::future
+    Step5[05. 协作: PR工作流]:::threshold
+    Step6[06. 冲突: 解决冲突]:::future
+    Step7[07. 社交: Issue与Wiki]:::future
+    Step8[08. 自动: Actions入门]:::future
+
+    %% 路径连接
+    Step1 --> Step2 --> Step3 --> Step4 --> Step5 --> Step6 --> Step7 --> Step8
+```
+
+## 节点详情
+
+1.  **01. 破冰: Git与GitHub** (概念 | ★☆☆)
+    *   目标：理解本地/远程关系，完成安装配置，连接 SSH。
+2.  **02. 单兵: 提交三部曲** (配置 | ★☆☆)
+    *   目标：掌握 `add`, `commit`, `push` 核心循环，读懂 `status`。
+3.  **03. 穿越: 时光倒流** (概念 | ★★☆)
+    *   目标：学会撤销修改 (`reset`, `restore`)，理解工作区/暂存区/版本库的区别。
+4.  **04. 分支: 平行宇宙** (概念 | ★★☆)
+    *   目标：理解分支指针，掌握创建、切换、删除分支。
+5.  **05. 协作: PR工作流** (整合 | ★★★) 🚧 *门槛*
+    *   目标：理解 Pull Request 机制，模拟左右互搏发 PR。
+6.  **06. 冲突: 解决冲突** (调参 | ★★★)
+    *   目标：不惧怕 `CONFLICT`，学会手动修文件并完成合并。
+7.  **07. 社交: Issue与Wiki** (概念 | ★☆☆)
+    *   目标：像用论坛一样用 GitHub，管理任务。
+8.  **08. 自动: Actions入门** (配置 | ★★☆)
+    *   目标：写一个简单的 YAML，实现 push 代码自动触发脚本。
