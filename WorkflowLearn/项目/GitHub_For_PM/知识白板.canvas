@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"node-a1","type":"file","file":"WorkflowLearn/项目/GitHub_For_PM/掌握卡片/A1. 仓库与快照.md","x":100,"y":100,"width":400,"height":400},
+		{"id":"node-a2","type":"file","file":"WorkflowLearn/项目/GitHub_For_PM/掌握卡片/A2. 分支与平行宇宙.md","x":100,"y":900,"width":400,"height":400},
+		{"id":"node-b1","type":"file","file":"WorkflowLearn/项目/GitHub_For_PM/掌握卡片/B1. PR与评审.md","x":100,"y":1700,"width":400,"height":400},
+		{"id":"node-b2","type":"file","file":"WorkflowLearn/项目/GitHub_For_PM/掌握卡片/B2. 冲突处理.md","x":100,"y":2500,"width":400,"height":400},
+		{"id":"node-c1","type":"file","file":"WorkflowLearn/项目/GitHub_For_PM/掌握卡片/C1. Issues.md","x":100,"y":3300,"width":400,"height":400},
+		{"id":"node-c2","type":"file","file":"WorkflowLearn/项目/GitHub_For_PM/掌握卡片/C2. Project看板.md","x":100,"y":4100,"width":400,"height":400},
+		{"id":"node-d1","type":"file","file":"WorkflowLearn/项目/GitHub_For_PM/掌握卡片/D1. Wiki与文档.md","x":100,"y":4900,"width":400,"height":400},
+		{"id":"node-d2","type":"file","file":"WorkflowLearn/项目/GitHub_For_PM/掌握卡片/D2. README.md","x":100,"y":5700,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"edge-a1-a2","fromNode":"node-a1","fromSide":"bottom","toNode":"node-a2","toSide":"top","label":"基于快照机制"},
+		{"id":"edge-a2-b1","fromNode":"node-a2","fromSide":"bottom","toNode":"node-b1","toSide":"top","label":"分支如何合并？"},
+		{"id":"edge-b1-b2","fromNode":"node-b1","fromSide":"bottom","toNode":"node-b2","toSide":"top","label":"合并时遇到冲突怎么办？"},
+		{"id":"edge-b2-c1","fromNode":"node-b2","fromSide":"bottom","toNode":"node-c1","toSide":"top","label":"代码合并了，需求如何追踪？"},
+		{"id":"edge-c1-c2","fromNode":"node-c1","fromSide":"bottom","toNode":"node-c2","toSide":"top","label":"多个Issue如何管理？"},
+		{"id":"edge-c2-d1","fromNode":"node-c2","fromSide":"bottom","toNode":"node-d1","toSide":"top","label":"如何让文档和代码同步？"},
+		{"id":"edge-d1-d2","fromNode":"node-d1","fromSide":"bottom","toNode":"node-d2","toSide":"top","label":"新人如何快速上手？"}
+	]
+}
