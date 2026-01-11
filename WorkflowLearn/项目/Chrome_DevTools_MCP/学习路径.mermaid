@@ -1,0 +1,16 @@
+graph LR
+    classDef done fill:#d4fae8,stroke:#00b894,color:#000
+    classDef active fill:#74b9ff,stroke:#0984e3,color:#fff,stroke-width:2px
+    classDef future fill:#dfe6e9,stroke:#b2bec3,color:#636e72
+    classDef threshold fill:#ff7675,stroke:#d63031,color:#fff,stroke-dasharray: 5 5
+
+    A1(A1. 环境与心跳):::active
+    A2(A2. 视觉与导航):::future
+    B1(B1. 精准交互):::future
+    B2(B2. 动态调试):::future
+    C1(C1. 网络与性能):::future
+
+    A1 --> A2 --> B1 --> B2 --> C1
+
+    %% 门槛标记
+    linkStyle 1 stroke-width:2px,fill:none,stroke:red;

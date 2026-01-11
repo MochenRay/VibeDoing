@@ -4,14 +4,14 @@
 		{"id":"node-A2","type":"file","file":"WorkflowLearn/项目/Antigravity_Mastery/掌握卡片/A2. 提示词艺术.md","x":100,"y":600,"width":400,"height":400},
 		{"id":"node-A3","type":"file","file":"WorkflowLearn/项目/Antigravity_Mastery/掌握卡片/A3. 任务规划.md","x":100,"y":1100,"width":400,"height":400},
 		{"id":"node-A4","type":"file","file":"WorkflowLearn/项目/Antigravity_Mastery/掌握卡片/A4. 验证与纠错.md","x":100,"y":1600,"width":400,"height":400},
-		{"id":"node-B1","type":"file","file":"WorkflowLearn/项目/Antigravity_Mastery/掌握卡片/B1. Agent Loop.md","x":1180,"y":220,"width":400,"height":400},
-		{"id":"node-B2","type":"file","file":"WorkflowLearn/项目/Antigravity_Mastery/掌握卡片/B2. Tool Calling.md","x":1180,"y":720,"width":400,"height":400},
-		{"id":"node-B3","type":"file","file":"WorkflowLearn/项目/Antigravity_Mastery/掌握卡片/B3. Context管理.md","x":1180,"y":1220,"width":400,"height":400},
-		{"id":"node-B4","type":"file","file":"WorkflowLearn/项目/Antigravity_Mastery/掌握卡片/B4. Artifacts系统.md","x":1180,"y":1720,"width":400,"height":400},
-		{"id":"node-C1","type":"file","file":"WorkflowLearn/项目/Antigravity_Mastery/掌握卡片/C1. GEMINI.md配置.md","x":2260,"y":220,"width":400,"height":400},
-		{"id":"node-C2","type":"file","file":"WorkflowLearn/项目/Antigravity_Mastery/掌握卡片/C2. Workflows工作流.md","x":2260,"y":720,"width":400,"height":400},
-		{"id":"node-C3","type":"file","file":"WorkflowLearn/项目/Antigravity_Mastery/掌握卡片/C3. MCP协议.md","x":2260,"y":1220,"width":400,"height":400},
-		{"id":"node-C4","type":"file","file":"WorkflowLearn/项目/Antigravity_Mastery/掌握卡片/C4. settings.json.md","x":2260,"y":1720,"width":400,"height":400}
+		{"id":"node-B1","type":"file","file":"WorkflowLearn/项目/Antigravity_Mastery/掌握卡片/B1. Agent Loop.md","x":1000,"y":200,"width":400,"height":400},
+		{"id":"node-B2","type":"file","file":"WorkflowLearn/项目/Antigravity_Mastery/掌握卡片/B2. Tool Calling.md","x":1000,"y":700,"width":400,"height":400},
+		{"id":"node-B3","type":"file","file":"WorkflowLearn/项目/Antigravity_Mastery/掌握卡片/B3. Context管理.md","x":1000,"y":1200,"width":400,"height":400},
+		{"id":"node-B4","type":"file","file":"WorkflowLearn/项目/Antigravity_Mastery/掌握卡片/B4. Artifacts系统.md","x":1000,"y":1700,"width":400,"height":400},
+		{"id":"node-C1","type":"file","file":"WorkflowLearn/项目/Antigravity_Mastery/掌握卡片/C1. GEMINI.md配置.md","x":2080,"y":200,"width":400,"height":400},
+		{"id":"node-C2","type":"file","file":"WorkflowLearn/项目/Antigravity_Mastery/掌握卡片/C2. Workflows工作流.md","x":2080,"y":700,"width":400,"height":400},
+		{"id":"node-C3","type":"file","file":"WorkflowLearn/项目/Antigravity_Mastery/掌握卡片/C3. MCP协议.md","x":2080,"y":1200,"width":400,"height":400},
+		{"id":"node-C4","type":"file","file":"WorkflowLearn/项目/Antigravity_Mastery/掌握卡片/C4. settings.json.md","x":2080,"y":1700,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"edge-A1-A2","fromNode":"node-A1","fromSide":"bottom","toNode":"node-A2","toSide":"top","label":"掌握执行模式后，学习如何写好提示词"},
