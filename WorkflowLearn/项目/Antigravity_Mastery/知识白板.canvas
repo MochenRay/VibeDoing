@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"node-A1","type":"file","file":"WorkflowLearn/项目/Antigravity_Mastery/掌握卡片/A1. Agent执行模式.md","x":100,"y":100,"width":400,"height":400},
+		{"id":"node-A2","type":"file","file":"WorkflowLearn/项目/Antigravity_Mastery/掌握卡片/A2. 提示词艺术.md","x":100,"y":600,"width":400,"height":400},
+		{"id":"node-A3","type":"file","file":"WorkflowLearn/项目/Antigravity_Mastery/掌握卡片/A3. 任务规划.md","x":100,"y":1100,"width":400,"height":400},
+		{"id":"node-A4","type":"file","file":"WorkflowLearn/项目/Antigravity_Mastery/掌握卡片/A4. 验证与纠错.md","x":100,"y":1600,"width":400,"height":400},
+		{"id":"node-B1","type":"file","file":"WorkflowLearn/项目/Antigravity_Mastery/掌握卡片/B1. Agent Loop.md","x":1180,"y":220,"width":400,"height":400},
+		{"id":"node-B2","type":"file","file":"WorkflowLearn/项目/Antigravity_Mastery/掌握卡片/B2. Tool Calling.md","x":1180,"y":720,"width":400,"height":400},
+		{"id":"node-B3","type":"file","file":"WorkflowLearn/项目/Antigravity_Mastery/掌握卡片/B3. Context管理.md","x":1180,"y":1220,"width":400,"height":400},
+		{"id":"node-B4","type":"file","file":"WorkflowLearn/项目/Antigravity_Mastery/掌握卡片/B4. Artifacts系统.md","x":1180,"y":1720,"width":400,"height":400},
+		{"id":"node-C1","type":"file","file":"WorkflowLearn/项目/Antigravity_Mastery/掌握卡片/C1. GEMINI.md配置.md","x":2260,"y":220,"width":400,"height":400},
+		{"id":"node-C2","type":"file","file":"WorkflowLearn/项目/Antigravity_Mastery/掌握卡片/C2. Workflows工作流.md","x":2260,"y":720,"width":400,"height":400},
+		{"id":"node-C3","type":"file","file":"WorkflowLearn/项目/Antigravity_Mastery/掌握卡片/C3. MCP协议.md","x":2260,"y":1220,"width":400,"height":400},
+		{"id":"node-C4","type":"file","file":"WorkflowLearn/项目/Antigravity_Mastery/掌握卡片/C4. settings.json.md","x":2260,"y":1720,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"edge-A1-A2","fromNode":"node-A1","fromSide":"bottom","toNode":"node-A2","toSide":"top","label":"掌握执行模式后，学习如何写好提示词"},
+		{"id":"edge-A2-A3","fromNode":"node-A2","fromSide":"bottom","toNode":"node-A3","toSide":"top","label":"提示词写好后，学习如何规划复杂任务"},
+		{"id":"edge-A3-A4","fromNode":"node-A3","fromSide":"bottom","toNode":"node-A4","toSide":"top","label":"任务规划后，学习如何验证和纠错"},
+		{"id":"edge-A4-B1","fromNode":"node-A4","fromSide":"right","toNode":"node-B1","toSide":"left","label":"使用层完成，进入原理层"},
+		{"id":"edge-B1-B2","fromNode":"node-B1","fromSide":"bottom","toNode":"node-B2","toSide":"top","label":"理解Agent Loop后，学习Tool Calling机制"},
+		{"id":"edge-B2-B3","fromNode":"node-B2","fromSide":"bottom","toNode":"node-B3","toSide":"top","label":"理解Tool Calling后，学习Context管理"},
+		{"id":"edge-B3-B4","fromNode":"node-B3","fromSide":"bottom","toNode":"node-B4","toSide":"top","label":"理解Context后，学习Artifacts系统"},
+		{"id":"edge-B4-C1","fromNode":"node-B4","fromSide":"right","toNode":"node-C1","toSide":"left","label":"原理层完成，进入定制层"},
+		{"id":"edge-C1-C2","fromNode":"node-C1","fromSide":"bottom","toNode":"node-C2","toSide":"top","label":"理解GEMINI.md后，学习Workflows"},
+		{"id":"edge-C2-C3","fromNode":"node-C2","fromSide":"bottom","toNode":"node-C3","toSide":"top","label":"理解Workflows后，学习MCP协议"},
+		{"id":"edge-C3-C4","fromNode":"node-C3","fromSide":"bottom","toNode":"node-C4","toSide":"top","label":"理解MCP协议后，学习settings.json配置"}
+	]
+}
