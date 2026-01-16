@@ -1,0 +1,99 @@
+{
+  "nodes": [
+    {
+      "id": "source",
+      "type": "file",
+      "file": "WorkflowLearn/项目/RAG_Vector_DB/初始文档.md",
+      "x": 0,
+      "y": 0,
+      "width": 350,
+      "height": 150
+    },
+    {
+      "id": "info",
+      "type": "file",
+      "file": "WorkflowLearn/项目/RAG_Vector_DB/项目信息.md",
+      "x": 400,
+      "y": 0,
+      "width": 350,
+      "height": 150
+    },
+    {
+      "id": "path",
+      "type": "file",
+      "file": "WorkflowLearn/项目/RAG_Vector_DB/学习路径.md",
+      "x": 800,
+      "y": 0,
+      "width": 350,
+      "height": 150
+    },
+    {
+      "id": "layer-a",
+      "type": "text",
+      "text": "# A层：基础概念\n\n- [x] A1: Embedding原理 ✅\n- [x] A2: 相似度计算 ✅ 🚧\n- [ ] A3: Chunking策略",
+      "x": 0,
+      "y": 200,
+      "width": 280,
+      "height": 150,
+      "color": "4"
+    },
+    {
+      "id": "layer-b",
+      "type": "text",
+      "text": "# B层：核心组件\n\n- [ ] B1: 向量数据库 🚧\n- [ ] B2: 混合搜索\n- [ ] B3: Reranking",
+      "x": 320,
+      "y": 200,
+      "width": 280,
+      "height": 150,
+      "color": "5"
+    },
+    {
+      "id": "layer-c",
+      "type": "text",
+      "text": "# C层：系统集成\n\n- [ ] C1: 端到端Pipeline 🚧\n- [ ] C2: RAG Prompt\n- [ ] C3: 评估调优",
+      "x": 640,
+      "y": 200,
+      "width": 280,
+      "height": 150,
+      "color": "6"
+    },
+    {
+      "id": "layer-d",
+      "type": "text",
+      "text": "# D层：生产部署\n\n- [ ] D1: 最佳实践",
+      "x": 960,
+      "y": 200,
+      "width": 200,
+      "height": 100,
+      "color": "3"
+    },
+    {
+      "id": "card-a1",
+      "type": "file",
+      "file": "WorkflowLearn/项目/RAG_Vector_DB/掌握卡片/A1. Embedding原理.md",
+      "x": 0,
+      "y": 400,
+      "width": 280,
+      "height": 100,
+      "color": "4"
+    },
+    {
+      "id": "card-a2",
+      "type": "file",
+      "file": "WorkflowLearn/项目/RAG_Vector_DB/掌握卡片/A2. 相似度计算与ANN.md",
+      "x": 300,
+      "y": 400,
+      "width": 280,
+      "height": 100,
+      "color": "4"
+    }
+  ],
+  "edges": [
+    {"id": "e1", "fromNode": "layer-a", "fromSide": "right", "toNode": "layer-b", "toSide": "left"},
+    {"id": "e2", "fromNode": "layer-b", "fromSide": "right", "toNode": "layer-c", "toSide": "left"},
+    {"id": "e3", "fromNode": "layer-c", "fromSide": "right", "toNode": "layer-d", "toSide": "left"},
+    {"id": "e4", "fromNode": "layer-a", "fromSide": "bottom", "toNode": "card-a1", "toSide": "top"},
+    {"id": "e5", "fromNode": "layer-a", "fromSide": "bottom", "toNode": "card-a2", "toSide": "top"},
+    {"id": "e6", "fromNode": "card-a1", "fromSide": "right", "toNode": "card-a2", "toSide": "left"}
+  ]
+}
