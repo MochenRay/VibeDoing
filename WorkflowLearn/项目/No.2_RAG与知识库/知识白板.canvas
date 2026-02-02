@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"p1","type":"text","text":"# P1 多源数据vs多模态\n\n⏳ 待评估\n\n- 多源数据：来自不同系统\n- 多模态数据：来自不同感知通道\n- 本质：让不同类型数据「对话」","x":100,"y":100,"width":400,"height":300},
+		{"id":"p2","type":"text","text":"# P2 ETL vs AI Pipeline\n\n⏳ 待评估\n\n- ETL：抽取→清洗→加载→BI\n- AI Pipeline：+标注+向量化\n- RAG的分块→向量化→检索是典型应用","x":100,"y":500,"width":400,"height":300},
+		{"id":"p3","type":"text","text":"# P3 数据质量对RAG的影响 🚧\n\n⏳ 待评估\n\n- 完整性：文档覆盖率\n- 准确性：内容是否正确\n- 一致性：同一概念是否统一\n- 时效性：是否及时更新","x":100,"y":900,"width":400,"height":300},
+		{"id":"a1","type":"text","text":"# A1 RAG流程与架构\n\n⏳ 待评估\n\n离线：文档→分块→向量化→存储\n在线：提问→检索→拼接→生成","x":100,"y":1300,"width":400,"height":300},
+		{"id":"a2","type":"text","text":"# A2 向量与Embedding\n\n⏳ 待评估\n\n- 向量：语义的「GPS坐标」\n- Embedding：文本→向量的转换\n- 相似度：方向是否一致","x":100,"y":1700,"width":400,"height":300},
+		{"id":"b1","type":"text","text":"# B1 文档分块策略 🚧\n\n⏳ 待评估\n\n- 固定长度/按段落/按语义\n- 重叠防止断裂\n- 500-1000字推荐","x":100,"y":2100,"width":400,"height":300},
+		{"id":"b2","type":"text","text":"# B2 检索错误vs生成错误\n\n⏳ 待评估\n\n- 检索错误：没找到相关文档\n- 生成错误：找到了但理解错\n- 诊断：先看检索结果","x":100,"y":2500,"width":400,"height":300},
+		{"id":"b3","type":"text","text":"# B3 RAG局限与适用边界\n\n⏳ 待评估\n\n适合：知识库问答、文档检索\n不适合：实时计算、多轮推理、创意生成","x":100,"y":2900,"width":400,"height":300},
+		{"id":"c1","type":"text","text":"# C1 城市治理知识库方案\n\n⏳ 待评估\n\n综合应用：数据源+分块+检索+生成+Fallback+评估","x":100,"y":3300,"width":400,"height":300}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"p1","toNode":"p2","fromSide":"bottom","toSide":"top"},
+		{"id":"e2","fromNode":"p2","toNode":"p3","fromSide":"bottom","toSide":"top"},
+		{"id":"e3","fromNode":"p3","toNode":"a1","fromSide":"bottom","toSide":"top"},
+		{"id":"e4","fromNode":"a1","toNode":"a2","fromSide":"bottom","toSide":"top"},
+		{"id":"e5","fromNode":"a2","toNode":"b1","fromSide":"bottom","toSide":"top"},
+		{"id":"e6","fromNode":"b1","toNode":"b2","fromSide":"bottom","toSide":"top"},
+		{"id":"e7","fromNode":"b2","toNode":"b3","fromSide":"bottom","toSide":"top"},
+		{"id":"e8","fromNode":"b3","toNode":"c1","fromSide":"bottom","toSide":"top"}
+	]
+}
