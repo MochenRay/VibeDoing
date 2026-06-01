@@ -6,6 +6,8 @@
 
 这门课应当成为 AI PM 的决策课，而不是单纯的技术方案对比课。
 
+2026-06-01：个人学习进度已重置。本项目课程材料保留，但不继承任何选型 memo、实操或教学通过状态。
+
 ## 已冻结决策
 
 1. 课程主线应覆盖 prompt / RAG / workflow / agent / fine-tune / multimodal / build-buy-assemble。
@@ -27,13 +29,9 @@
 - `migration-notes.md`
 - `curriculum/*.md`
 - `refresh/*.md`
-- `选型 / 架构判断 / ROI / 产品化决策` 首版稳定内容
-- `concepts.md` 已包含 P1-P7 的决策主线
-- `labs.md` 已包含 5 个场景化练习
-- `outcomes.md` 已形成全景式产出清单
+- 课程材料保留；个人学习通过记录已清空
 
 ## 下一步
 
-1. 补 `vendor lock-in` 与切换成本判断。
-2. 把 `Prompt / RAG / Workflow / Agent / Fine-tune` 整合成统一 solution routing 决策树。
-3. 进入首轮教学验证，并把真实错误样本回写到 `labs.md`。
+1. 待 No.1-No.6 完成后，从 `P1 先定义问题类型` 开始首轮讲解。
+2. 后续再把 `Prompt / RAG / Workflow / Agent / Fine-tune` 整合成统一 solution routing 决策树。

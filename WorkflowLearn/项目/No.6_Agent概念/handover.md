@@ -1,10 +1,12 @@
 # No.6_Agent概念 交接页
 
-> 最近确认时间：2026-04-16
+> 最近确认时间：2026-06-01
 
 ## 当前判断
 
 这门课应被视为 `Agent / Workflow / Harness Engineering` 的核心课，不再只是 Agent 概念导论。
+
+2026-06-01：个人学习进度已重置。本项目课程材料和 capstone 材料保留，但不继承任何教学通过或 Capstone B 验证状态。
 
 ## 已冻结决策
 
@@ -26,11 +28,9 @@
 - `migration-notes.md`
 - `curriculum/*.md`
 - `refresh/*.md`
-- `Agent / Workflow / Harness` 首版稳定内容
-- `Capstone B` 首版案例包已落盘到 `专题/AI_PM转型/Capstone_B_Workflow_Agent_Operations_Assistant/`
+- 课程材料保留；个人学习通过记录已清空
 
 ## 下一步
 
-1. 继续细化 `Capstone B` 的案例深度与展示版本。
-2. 决定 `Computer Use` 是否单独长出一支新案例。
-3. 继续把 `No.6` 与 `No.7` 的专题作品链路打通。
+1. 待 No.1-No.5 完成后，从 `P1 Agent 是什么` 开始首轮讲解。
+2. 后续再决定 `Computer Use` 是否单独长出一支新案例。

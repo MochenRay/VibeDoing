@@ -5,7 +5,8 @@
 ## 当前判断
 
 这个项目已经不再只是“会算 Precision / Recall”的指标课，而是 `AI / Agent Evals` 的核心模块。
-当前完成的是第一轮结构重写，目标是让 AI PM 能写出可落地的评估方案、上线门槛和 agent 质量判断。
+
+2026-06-01：个人学习进度已重置。本项目课程材料保留，但不继承此前任何教学验证或案例通过状态。
 
 ## 已冻结决策
 
@@ -28,10 +29,9 @@
 - `migration-notes.md`
 - `curriculum/*.md`
 - `refresh/*.md`
-- `A1/A2/B1/B2/B3/B4` 的首版内容迁移
+- 课程材料保留；个人学习通过记录已清空
 
 ## 下一步
 
-1. 把 `B3/B4` 扩成一份可复用的上线评审模板。
-2. 为 `C1` 设计两个 capstone 题目：`AI feature eval plan` 和 `agent workflow eval plan`。
-3. 对 `volatile` 里的模型裁判、示例阈值和 benchmark 快照做下一轮外部核验。
+1. 待 No.1-No.3 完成后，从 `P1 为什么 AI PM 需要 evals` 开始首轮讲解。
+2. 后续再把 `B3/B4` 扩成一份可复用的上线评审模板。

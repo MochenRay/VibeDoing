@@ -4,29 +4,26 @@
 
 ## 当前状态
 
-- `status`: a4_reasoning_models_pending_teaching
-- `current_module`: A4 Reasoning Models 已补入课程，待首轮教学验证；A1/A2/A3/B2 已通过
-- `last_verified`: 2026-06-01
-- `next_action`: 先完成 A4 Reasoning Models 讲解与验证，再决定是否继续 No.2 B3
+- `status`: reset_not_started
+- `current_module`: No.1 / A1 Token 与上下文窗口
+- `last_verified`: not_started_after_reset
+- `next_action`: 从 No.1 A1 开始首轮讲解，不继承此前任何通过记录
 - `teaching_phase`: lecture
 - `round`: 0
-- `concept_type`: n/a
+- `concept_type`: ordinary
 - `error_count`: 0
 - `fallback_reason`: none
-- `review_due`: 2026-05-14
+- `review_due`: none
 - `review_count`: 0
 - `last_reviewed`: not_started
+- `learning_record_target`: records/learning-cards.md
+- `next_teaching_step`: start A1 first-round explanation
 
-## 已通过模块复习队列
+## progress_records
 
-- `A1 Token 与上下文窗口`：首轮通过 2026-05-13，首次复习 due 2026-05-14；后续 2026-05-16 / 2026-05-20 / 2026-05-27
-  - 待强化：论述时不要漏成本维度
-- `A2 Temperature 与采样`：首轮通过 2026-05-13，首次复习 due 2026-05-14；后续 2026-05-16 / 2026-05-20 / 2026-05-27
-  - 待强化：正面场景更具体；"低温=准确"修正为"低温=稳定"
-- `A3 模型幻觉与成因`：首轮通过 2026-05-13，首次复习 due 2026-05-14；后续 2026-05-16 / 2026-05-20 / 2026-05-27
-  - 待强化：错误根因区分检索层 vs 注意力层；高风险场景不漏人工审核
-- `B2 大模型工作原理概述`：首轮通过 2026-05-13，首次复习 due 2026-05-14；后续 2026-05-16 / 2026-05-20 / 2026-05-27
-  - 待强化：格式→微调 / 语气安全→RLHF 的归因线反复混淆；费曼中要补"训练好了也不会自查"
+- 2026-06-01：按用户要求清理既往学习记录，学习进度从头开始。
+- 当前没有任何模块被视为已通过。
+- 当前没有复习队列；复习计划必须在新一轮验证通过后重新生成。
 
 ## stale_items
 

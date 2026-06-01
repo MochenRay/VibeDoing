@@ -4,10 +4,25 @@
 
 ## 当前状态
 
-- `status`: first_curriculum_refresh_done_pending_teaching
-- `current_module`: decision curriculum stable content migrated with solution routing, vendor lock-in, pricing and cross-functional additions
-- `last_verified`: 2026-06-01
-- `next_action`: validate solution routing, vendor lock-in, pricing and cross-functional review through a real selection memo
+- `status`: reset_not_started
+- `current_module`: No.7 / P1 先定义问题类型
+- `last_verified`: not_started_after_reset
+- `next_action`: 待 No.1-No.6 完成后，从 No.7 P1 开始首轮讲解
+- `teaching_phase`: not_started
+- `round`: 0
+- `concept_type`: ordinary
+- `error_count`: 0
+- `fallback_reason`: none
+- `review_due`: none
+- `review_count`: 0
+- `last_reviewed`: not_started
+- `learning_record_target`: records/learning-cards.md
+- `next_teaching_step`: wait until prior projects are completed
+
+## progress_records
+
+- 2026-06-01：按用户要求清理既往学习记录。
+- 当前不继承任何 No.7 通过记录、选型 memo 或实操验证记录。
 
 ## stale_items
 

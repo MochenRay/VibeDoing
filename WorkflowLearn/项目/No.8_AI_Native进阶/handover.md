@@ -1,10 +1,12 @@
 # No.8_AI_Native进阶 交接页
 
-> 最近确认时间：2026-04-16
+> 最近确认时间：2026-06-01
 
 ## 当前判断
 
 这门课应当成为 AI Native PM 的进阶模块，不是模型论文速览课。
+
+2026-06-01：个人学习进度已重置。本项目课程材料和 capstone 材料保留，但不继承任何教学通过或 Capstone C 验证状态。
 
 ## 已冻结决策
 
@@ -26,11 +28,9 @@
 - `migration-notes.md`
 - `curriculum/*.md`
 - `refresh/*.md`
-- `AI Native PM 进阶` 首版稳定内容
-- `Capstone C` 首版案例包已落盘到 `专题/AI_PM转型/Capstone_C_AI_Native_Copilot_Feature/`
+- 课程材料保留；个人学习通过记录已清空
 
 ## 下一步
 
-1. 继续细化 `Capstone C` 的案例深度与展示版本。
-2. 决定多模态 / voice / canvas 是否要单独长出下一支案例。
-3. 继续把 `No.8` 与 `No.7` 的产品化与商业化链路打通。
+1. 待 No.1-No.7 完成后，从 `P1 什么是 AI Native PM` 开始首轮讲解。
+2. 后续再决定多模态 / voice / canvas 是否要单独长出下一支案例。

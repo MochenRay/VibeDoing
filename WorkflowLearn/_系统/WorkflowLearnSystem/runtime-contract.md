@@ -43,6 +43,7 @@
 - `round`
 - `error_count`
 - `writeback_targets`
+- `learning_record_target`
 
 如果其中某项缺失，runtime 必须先恢复或显式标记缺失，不得默认猜测。
 
@@ -91,11 +92,14 @@ runtime 只允许以下主路径：
 - 能恢复当前轮次和错误计数
 - 能在回退时写清 `fallback_reason`
 - 能在通过后产出 `review_due` 和 `next_teaching_step`
+- 能在模块通过、回退、暂停或复习后产出 `learning_card_updates`
 
 ### 6.4 写回
 
 写回阶段只接受已验证内容，并且必须能被未来恢复。
 写回内容应最小化重复，只留下长期有用的信息。
+
+教学型模块收口时，缺少对应 `records/learning-cards.md` 更新不算完整关闭。
 
 ### 6.5 刷新
 
@@ -110,6 +114,7 @@ runtime 只允许以下主路径：
 - 本轮学习结论
 - 验证结果
 - 写回清单
+- 学习记录卡片更新
 - 刷新清单
 - 教学阶段结果
 - 下一步动作

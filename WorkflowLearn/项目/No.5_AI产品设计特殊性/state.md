@@ -1,30 +1,36 @@
 # No.5_AI产品设计特殊性 / State
 
 > 最近确认时间：2026-06-01
-> 状态：首版稳定课程已落盘，已补 Responsible AI / Bias / Compliance / User Research / Incident Management
 
-## 当前主线
+## 当前状态
 
-- 当前课程主线是 `Fallback / HITL / Trust / Human-in-the-loop`
-- 当前课程定位是补充模块，不是独立技术主课
-- 当前需要优先做的是首轮教学验证，并用真实场景校准风险、接管、用户研究、事故响应和合规边界
+- `status`: reset_not_started
+- `current_module`: No.5 / F1 失败是常态，不是例外
+- `last_verified`: not_started_after_reset
+- `next_action`: 待 No.1-No.4 完成后，从 No.5 F1 开始首轮讲解
+- `teaching_phase`: not_started
+- `round`: 0
+- `concept_type`: ordinary
+- `error_count`: 0
+- `fallback_reason`: none
+- `review_due`: none
+- `review_count`: 0
+- `last_reviewed`: not_started
+- `learning_record_target`: records/learning-cards.md
+- `next_teaching_step`: wait until prior projects are completed
 
-## 当前焦点
+## progress_records
 
-- AI 失败是常态，不是异常
-- 用户预期需要被管理，而不是被放大
-- 人工介入不是补丁，而是产品的一部分
-- 信任不是宣传词，而是可设计、可校准、可恢复的关系
+- 2026-06-01：按用户要求清理既往学习记录。
+- 当前不继承任何 No.5 通过记录或失败场景验证记录。
 
 ## 当前风险
 
-- 不同业务的容错边界完全不同
-- 置信度展示容易被误解成精确概率
-- Fallback 很容易退化成“失败就转人工”这种空话
-- 合规容易被误写成静态法规摘要，必须按地区和行业刷新
+- 不同业务的容错边界完全不同。
+- 置信度展示容易被误解成精确概率。
+- Fallback 很容易退化成“失败就转人工”这种空话。
+- 合规容易被误写成静态法规摘要，必须按地区和行业刷新。
 
-## 当前状态判断
+## blocked_items
 
-- 稳定概念已迁入 `curriculum/concepts.md`
-- 时效阈值、文案和行业策略先放 `volatile`
-- 验证任务应优先覆盖失败场景、接管路径和反馈闭环
+- 暂无。

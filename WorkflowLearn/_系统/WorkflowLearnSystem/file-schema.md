@@ -74,6 +74,10 @@
 - 两者可以不同步；不能因为刷新队列更新，就自动把教学状态改成已验证。
 - 如果刷新结果改变了当前教学下一步，才同步更新 `state.md`。
 
+教学型项目可增加：
+
+- `learning_record_target`: 指向本项目的 `records/learning-cards.md`
+
 ## 4. Curriculum 文件
 
 ### 4.1 `concepts.md`
@@ -110,6 +114,40 @@
 
 用途：定义何时算验证通过。
 
+### 5.3 `records/learning-cards.md`
+
+用途：记录学习过程证据，不替代 `state.md`、`handover.md` 或 `labs.md`。
+
+分工：
+
+- `state.md` 管当前进度、教学阶段和下一步。
+- `labs.md` 管实操任务、练习产物和实验结论。
+- `learning-cards.md` 管个人学习过程中的错误、亮点、重点追问和复习抓手。
+
+卡片粒度：
+
+- 每个项目一份 `records/learning-cards.md`。
+- 每个模块一个主段落，例如 `## A1 Token 与上下文窗口`。
+- 每次模块通过、回退、暂停或复习后，追加一个日期条目。
+
+条目字段：
+
+- `status`: `passed | fallback | paused | review`
+- `phase`
+- `pitfalls`
+- `errors`
+- `highlights`
+- `questions`
+- `review_focus`
+- `evidence`
+- `next_action`
+
+证据要求：
+
+- 以结构化摘要为主。
+- 可保留 1-3 条关键原话。
+- 不写成聊天转录，不迁移旧 `掌握卡片/` 为正式状态源。
+
 ## 6. 格式约束
 
 - 标题层级保持稳定，方便恢复。
@@ -144,6 +182,8 @@ _系统/WorkflowLearnSystem/
     refresh-queue.md
     verification-policy.md
     scan-policy.md
+  records/
+    learning-cards.md
   adapters/
     codex.md
     claude.md
