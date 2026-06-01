@@ -1,11 +1,11 @@
-# No.4_Prompt_Engineering
+# No.3_Prompt_Engineering
 
-> 最近确认时间：2026-04-16
-> 状态：首版课程骨架已落盘
+> 最近确认时间：2026-06-01
+> 状态：首版稳定课程已落盘，待首轮教学验证
 
 ## 用途
 
-本文件是 `No.4_Prompt_Engineering` 在新 `WorkflowLearnSystem` schema 下的项目首页。
+本文件是 `No.3_Prompt_Engineering` 在新 `WorkflowLearnSystem` schema 下的项目首页。
 当前项目已从旧的 Prompt 技巧集，重写为 `Prompt / Schema / Tools` 的正式课程。
 
 ## 目标
@@ -39,3 +39,4 @@
 
 - 2026-04-16：已创建新 schema 课程骨架
 - 2026-04-16：旧 Prompt 技巧集内容开始重构为接口设计课程
+- 2026-06-01：`Prompt / Schema / Tools / Generative UI / Reasoning prompt boundary` 已进入稳定课程层

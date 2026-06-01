@@ -1,6 +1,6 @@
 # 第一批 Capstone 组合
 
-> 最近确认时间：2026-04-16
+> 最近确认时间：2026-06-01
 > 状态：首版组合已冻结
 
 ## 目的
@@ -25,7 +25,8 @@
 
 - `No.1`：LLM 边界说明
 - `No.2`：RAG / Grounding 主线
-- `No.3`：Eval / Launch Readiness
+- `No.3`：Prompt / Schema / Tool Use，负责回答合同、引用结构与可验证输出
+- `No.4`：Eval / Launch Readiness
 - `No.5`：Fallback / HITL / Trust
 
 ### 最小交付包
@@ -60,9 +61,9 @@
 
 ### 主要来自
 
-- `No.4`：Prompt / Schema / Tool Use
+- `No.3`：Prompt / Schema / Tool Use
 - `No.6`：Agent / Workflow / Harness Engineering
-- `No.3`：Agent eval / Launch gate
+- `No.4`：Agent eval / Launch gate
 - `No.5`：HITL / fallback
 - `No.7`：技术选型与 rollout
 
@@ -97,7 +98,7 @@
 
 ### 主要来自
 
-- `No.4`：Prompt / Schema / Generative UI
+- `No.3`：Prompt / Schema / Generative UI
 - `No.8`：AI-native surface / feedback / multimodal
 - `No.5`：Trust / fallback / HITL
 - `No.7`：ROI / 产品化决策
@@ -138,6 +139,7 @@
 ## 当前冻结决定
 
 - `No.2/C1` 直接并入 `Capstone A`
+- `No.3` 进入 `Capstone A` 的 Prompt / Schema / Tool Use 能力映射，但不新增孤立交付物；其内容落在 `product-spec.md`、`eval-plan.md`、`grounding-citation-design.md` 和 `fallback-citation-design.md`
 - `No.6` 作为 `Capstone B` 的主干
 - `No.8` 作为 `Capstone C` 的主干
 - 第一批作品集的首版主干已经形成 `A + B + C`

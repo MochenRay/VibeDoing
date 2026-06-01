@@ -1,7 +1,7 @@
 # labs
 
-> 最近确认时间：2026-04-16
-> 状态：作品模板已扩写
+> 最近确认时间：2026-06-01
+> 状态：作品模板已扩写，并补 reasoning 选型练习
 
 ## Lab 1：LLM Boundary Memo
 
@@ -38,6 +38,13 @@
 - 必须包含：LLM 本体、RAG、tool use 的区别，以及各自的失败方式
 - 通过条件：不会把 LLM 误讲成“去数据库查答案”
 
+## Lab 6：Reasoning Budget Decision
+
+- 目标：为三个任务判断是否使用 reasoning model 或提高 thinking budget。
+- 交付物：`reasoning-budget-decision.md`
+- 必须包含：任务复杂度、可验证成功标准、延迟容忍度、成本影响、是否有更简单替代方案
+- 通过条件：不会把 reasoning 当默认开关，而能说清何时值得、何时浪费
+
 ## 历史验证结论
 
 - `15000` 字政策文档并不 automatically 适合直接塞进长上下文模型；产品上仍要考虑 RAG 或抽取式上下文。
@@ -47,3 +54,4 @@
 - 回答“死板”的正确排查顺序是 prompt → few-shot → schema → 模型 → 温度；温度永远是**最末端**的旋钮，不是第一反应。
 - 高风险场景（法律/医疗/金融）铁律：错报代价 >> 漏报代价。"我不知道" 应作为**可见、可操作**的产品状态暴露给用户，而不是被系统静默吞掉。
 - Temperature 和 top_p 功能重叠，业界共识**只调一个**；要复现性加 `seed`；reasoning 模型（o1 / Extended Thinking 类）对 temperature 反应很弱甚至不暴露——这条属于 volatile 区域，需按厂商当期文档核实。
+- reasoning / thinking token 可能不可见但仍影响成本和延迟，正式 PRD 要把其作为预算项。

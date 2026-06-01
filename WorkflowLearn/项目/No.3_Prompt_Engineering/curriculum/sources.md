@@ -11,6 +11,9 @@
 - [Gemini Prompt design strategies](https://ai.google.dev/gemini-api/docs/prompting-strategies)
 - [MCP Architecture](https://modelcontextprotocol.io/docs/learn/architecture)
 - [Vercel AI SDK: Generative User Interfaces](https://ai-sdk.dev/docs/ai-sdk-ui/generative-user-interfaces)
+- [OpenAI Reasoning models](https://platform.openai.com/docs/guides/reasoning)
+- [Anthropic Extended Thinking](https://docs.anthropic.com/en/docs/build-with-claude/extended-thinking)
+- [Gemini Thinking](https://ai.google.dev/gemini-api/docs/thinking)
 
 ## 2026-04-16 官方核验结论
 
@@ -32,3 +35,4 @@
 - 工具、结构化输出、remote MCP 与 Generative UI 已经明显收束到同一条产品能力链：模型输出不只是文本，还会变成参数、工具调用和界面状态。
 - 本课稳定层应继续讲 `behavior spec / schema / tool contract / UI descriptor / eval` 的关系；具体 SDK 写法、模型支持矩阵和宿主命名仍留在时效层。
 - 后续案例要优先补 `prompt-tool-eval-pack`，避免把 prompt 课重新学成 prompt recipe。
+- Reasoning / thinking 已进入主流模型调用界面；本课只吸收“目标、约束、输出合同、验证方式”这条稳定 prompt 设计原则，具体参数留在 `volatile`。

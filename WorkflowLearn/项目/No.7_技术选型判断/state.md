@@ -1,13 +1,13 @@
 # state
 
-> 最近确认时间：2026-04-16
+> 最近确认时间：2026-06-01
 
 ## 当前状态
 
-- `status`: first_curriculum_migration_done
-- `current_module`: decision curriculum stable content migrated
-- `last_verified`: 2026-04-16
-- `next_action`: continue refreshing volatile items and extend ROI / launch examples
+- `status`: first_curriculum_refresh_done_pending_teaching
+- `current_module`: decision curriculum stable content migrated with solution routing, vendor lock-in, pricing and cross-functional additions
+- `last_verified`: 2026-06-01
+- `next_action`: validate solution routing, vendor lock-in, pricing and cross-functional review through a real selection memo
 
 ## stale_items
 

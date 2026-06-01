@@ -40,11 +40,11 @@
 
 ## 课程映射
 
-- `No.4`：Prompt / Schema / Tool Use / Generative UI
+- `No.3`：Prompt / Schema / Tool Use / Generative UI
 - `No.8`：AI-native surface selection / generative UI / feedback telemetry / multimodal、voice、live surface
 - `No.5`：fallback、HITL、trust
 - `No.7`：build-buy-assemble / ROI / 成本结构 / 产品化决策 / rollout
-- `No.3`：eval / launch gate
+- `No.4`：eval / launch gate
 
 ## 使用顺序
 

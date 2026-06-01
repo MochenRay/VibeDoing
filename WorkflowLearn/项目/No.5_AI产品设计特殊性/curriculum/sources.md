@@ -10,6 +10,8 @@
 - [Anthropic: Effective harnesses for long-running agents](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents)
 - [Gemini Prompt design strategies](https://ai.google.dev/gemini-api/docs/prompting-strategies)
 - [NIST AI RMF 1.0](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf)
+- [European Commission: AI Act](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai)
+- [China State Council: Interim rules on generative AI services](https://english.www.gov.cn/news/202307/13/content_WS64aff5b3c6d0868f4e8ddc01.html)
 
 ## 2026-04-16 官方核验结论
 
@@ -30,3 +32,4 @@
 - trust / fallback 仍应与 eval、grounding、artifact、handoff 和 incident review 绑定，而不是作为独立 UI 文案课处理。
 - 当前需要补强的是行业化接管边界：同一模型表现，在不同行业下对应的人工确认、责任归属和上线门槛会不同。
 - 后续案例应优先沉淀可转成 eval case 的反馈，而不是只记录用户满意度。
+- 2026-06-01 补充核验：EU AI Act 已按风险分层、GPAI 和透明义务推进分阶段适用；中国生成式 AI 服务监管强调分类分级、信息安全、个人信息保护和未成年人保护。因此课程稳定层只讲责任框架，具体义务进入刷新队列。

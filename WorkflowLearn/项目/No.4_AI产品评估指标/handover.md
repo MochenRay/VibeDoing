@@ -1,6 +1,6 @@
-# No.3_AI产品评估指标 交接页
+# No.4_AI产品评估指标 交接页
 
-> 最近确认时间：2026-04-16
+> 最近确认时间：2026-06-01
 
 ## 当前判断
 
@@ -17,7 +17,7 @@
 
 ## 未决问题
 
-1. `B3` 更适合先做“上线门槛清单”，还是直接做完整上线评审模板。
+1. B4 安全评估如何与 B3 launch gate 合并成一份正式上线评审模板。
 2. `C1` capstone 是先做 `AI 应用评估方案`，还是先做 `Agent workflow 评估方案`。
 
 ## 当前产出
@@ -28,10 +28,10 @@
 - `migration-notes.md`
 - `curriculum/*.md`
 - `refresh/*.md`
-- `A1/A2/B1/B2/B3` 的首版内容迁移
+- `A1/A2/B1/B2/B3/B4` 的首版内容迁移
 
 ## 下一步
 
-1. 把 `B3` 扩成一份可复用的上线评审模板。
+1. 把 `B3/B4` 扩成一份可复用的上线评审模板。
 2. 为 `C1` 设计两个 capstone 题目：`AI feature eval plan` 和 `agent workflow eval plan`。
 3. 对 `volatile` 里的模型裁判、示例阈值和 benchmark 快照做下一轮外部核验。

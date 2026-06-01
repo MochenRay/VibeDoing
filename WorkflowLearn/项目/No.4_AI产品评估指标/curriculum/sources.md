@@ -1,7 +1,7 @@
 # sources
 
 > 最近确认时间：2026-06-01
-> 状态：已记录 B3 刷新方向，未新增未核验来源
+> 状态：已记录 B3/B4 刷新方向，并补充安全评估来源
 
 ## 核心来源
 
@@ -9,6 +9,8 @@
 - [OpenAI Evaluation best practices](https://developers.openai.com/api/docs/guides/evaluation-best-practices)
 - [OpenAI Working with evals](https://developers.openai.com/api/docs/guides/evals)
 - [Anthropic: Effective harnesses for long-running agents](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents)
+- [NIST AI RMF 1.0](https://www.nist.gov/itl/ai-risk-management-framework)
+- [OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications)
 
 ## 2026-04-16 官方核验结论
 
@@ -24,12 +26,14 @@
 - 旧 `No.3` 最大的问题是把课程中心放在“会算指标”，而不是“如何评估 AI / agent 系统”。
 - 新稳定主干应围绕架构边界、数据集设计、持续评估和上线门槛，而不是围绕一张静态指标表。
 - 2026-06-01 刷新方向：`B3` 应成为可复用 `launch gate / continuous eval / agent eval` 模板，覆盖 objective、dataset、metrics / rubric、comparison、human review、rollback 和 eval backlog。
+- 安全评估应进入稳定主干，但具体 policy taxonomy、严重等级和拦截策略必须随平台与业务场景刷新。
 
 ## 首版迁移对应关系
 
 - `基础指标`：来自旧文档第 2-3 节
 - `Launch Readiness / A/B`：来自旧文档第 5-7 节，但做了结构重写
 - `Agent / workflow evals`：新增主线，主要依据外部官方文档补入
+- `Safety / policy evals`：2026-06-01 依据 NIST AI RMF 与 OWASP LLM 风险框架补入
 
 ## 后续需补的外部核验方向
 

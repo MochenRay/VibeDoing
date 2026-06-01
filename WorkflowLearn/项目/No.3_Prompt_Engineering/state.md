@@ -1,13 +1,13 @@
-# No.4_Prompt_Engineering / State
+# No.3_Prompt_Engineering / State
 
-> 最近确认时间：2026-04-16
-> 状态：首版课程骨架已落盘
+> 最近确认时间：2026-06-01
+> 状态：首版稳定课程已落盘，已补 reasoning、caching、UX 与用户研究入口
 
 ## 当前主线
 
 - 当前课程主线是 `Prompt / Schema / Tools`
 - 当前课程服务于 `AI 应用 PM + Agent / Workflow PM`
-- 当前需要优先补齐的是 `curriculum/` 的稳定概念和验证任务
+- 当前需要优先做的是首轮教学验证，并把 prompt/tool/UX/用户研究错误样本回写到 `labs.md`
 
 ## 当前焦点
 
@@ -24,6 +24,6 @@
 
 ## 当前状态判断
 
-- 稳定概念可以先迁
+- 稳定概念已迁入 `curriculum/concepts.md`
 - 时效实现细节先放 `volatile`
 - 验证任务应优先覆盖输出格式、工具边界、失败恢复和 UI 交互结果

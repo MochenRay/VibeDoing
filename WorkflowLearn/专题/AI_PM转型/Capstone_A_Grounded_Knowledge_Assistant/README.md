@@ -39,7 +39,8 @@
 
 - `No.1`：LLM 边界、hallucination 风险、context 预算
 - `No.2`：RAG / retrieval / grounding / citations
-- `No.3`：eval、launch gate、在线护栏
+- `No.3`：Prompt / Schema / Tool Use
+- `No.4`：eval、launch gate、在线护栏
 - `No.5`：fallback、HITL、trust
 
 ## 使用顺序

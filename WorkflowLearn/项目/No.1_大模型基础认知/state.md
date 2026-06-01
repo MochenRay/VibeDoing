@@ -1,14 +1,14 @@
 # state
 
-> 最近确认时间：2026-05-13
+> 最近确认时间：2026-06-01
 
 ## 当前状态
 
-- `status`: all_modules_passed
-- `current_module`: No.1 全部模块首轮通过
-- `last_verified`: 2026-05-13
-- `next_action`: 2026-05-14 合并复习 A1/A2/A3/B2，然后决定是否进入 B1 volatile 或直接推进 No.2
-- `teaching_phase`: settlement
+- `status`: a4_reasoning_models_pending_teaching
+- `current_module`: A4 Reasoning Models 已补入课程，待首轮教学验证；A1/A2/A3/B2 已通过
+- `last_verified`: 2026-06-01
+- `next_action`: 先完成 A4 Reasoning Models 讲解与验证，再决定是否继续 No.2 B3
+- `teaching_phase`: lecture
 - `round`: 0
 - `concept_type`: n/a
 - `error_count`: 0
@@ -31,7 +31,7 @@
 ## stale_items
 
 - `B1` 的模型快照、价格、上下文窗口属于高频漂移内容，不进入稳定层。
-- reasoning 模型对 temperature 的具体行为在快速变化中，需按厂商文档周期核实。
+- reasoning 模型对 temperature、reasoning effort、thinking budget、计费和上下文占用的具体行为在快速变化中，需按厂商文档周期核实。
 
 ## blocked_items
 

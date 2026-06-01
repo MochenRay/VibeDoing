@@ -1,11 +1,11 @@
-# No.3_AI产品评估指标
+# No.4_AI产品评估指标
 
-> 最近确认时间：2026-04-16
-> 状态：首版稳定内容已迁移
+> 最近确认时间：2026-06-01
+> 状态：首版稳定课程已落盘，待首轮教学验证
 
 ## 用途
 
-本文件是 `No.3_AI产品评估指标` 在新 `WorkflowLearnSystem` schema 下的项目首页。
+本文件是 `No.4_AI产品评估指标` 在新 `WorkflowLearnSystem` schema 下的项目首页。
 当前项目已从“通用指标课”重写为 `AI / Agent Evals` 的正式课程入口。
 
 ## 目标
@@ -39,3 +39,4 @@
 
 - 2026-04-16：已完成第一轮重写，当前主线覆盖 `基础指标 -> eval 设计 -> workflow / agent eval -> launch readiness`
 - 旧 `初始文档.md` 保留为参考材料，不再作为正式课程结构
+- 2026-06-01：目录级顺序已调整为 No.4，确保学习者先学 No.3 Prompt / Schema / Tools，再学本课 eval / launch readiness

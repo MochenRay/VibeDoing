@@ -41,9 +41,9 @@
 
 ## 课程映射
 
-- `No.4`：Prompt / Schema / Tool Use
+- `No.3`：Prompt / Schema / Tool Use
 - `No.6`：Workflow vs Agent judgment / Tool contract / MCP / State-resume / Harness / Observability / Handoff / Eval
-- `No.3`：Agent eval / Launch gate
+- `No.4`：Agent eval / Launch gate
 - `No.5`：fallback、HITL、trust
 - `No.7`：选型 / ROI / rollout
 

@@ -38,6 +38,20 @@
 - 必须包含：护栏指标、eval dataset 状态、反馈遥测、人工接管、回滚条件、surface 风险、监控项
 - 通过条件：能据此做一次真实上线讨论，而不是停留在概念演示。
 
+## Lab 6：Onboarding and Expectation Brief
+
+- 目标：为一个 AI-native surface 设计用户引导。
+- 交付物：`onboarding-expectation-brief.md`
+- 必须包含：能力展示、边界提示、示例输入、核实入口、撤销路径、转人工入口
+- 通过条件：用户不用猜 AI 能做什么，也不会被误导为系统永远正确。
+
+## Lab 7：I18n / Accessibility Review
+
+- 目标：评审一个 AI-native 功能的国际化与无障碍风险。
+- 交付物：`i18n-accessibility-review.md`
+- 必须包含：语言质量、文化风险、本地法规提示、屏幕阅读器、键盘操作、动态内容提示、语音/字幕替代方案
+- 通过条件：功能不只在一种语言、一种输入方式、一种用户能力假设下成立。
+
 ## 常见错误
 
 - 把 AI native 只理解成聊天框

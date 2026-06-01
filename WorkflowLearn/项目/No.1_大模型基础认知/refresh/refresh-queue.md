@@ -1,6 +1,6 @@
 # refresh-queue
 
-> 最近确认时间：2026-04-16
+> 最近确认时间：2026-06-01
 
 ## 待刷新
 
@@ -11,6 +11,10 @@
 - `具体 tokenizer 经验值`
   - `reason`: 中英文 token 经验值和多模态 token 预算都受模型族影响
   - `refresh_rule`: 做真实成本估算或模型路由时先按当期官方文档复核
+
+- `reasoning effort / thinking budget 参数`
+  - `reason`: 参数名、支持模型、默认值、可关闭程度和计费细节随厂商变化
+  - `refresh_rule`: 写真实模型路由、成本估算或延迟方案前，先按当期官方文档核验
 
 ## 已处理
 
@@ -29,3 +33,11 @@
 - `Token / Context / Hallucination 主线`
   - `checked_on`: `2026-04-16`
   - `outcome`: 已确认课程主线应围绕 token 预算、working memory、context limits 和 hallucination mitigation 组织
+
+- `Reasoning Models 产品品类`
+  - `checked_on`: `2026-06-01`
+  - `outcome`: 已确认 reasoning / thinking 应进入稳定概念层；具体 effort / budget 参数继续留在刷新队列
+  - `sources`:
+    - [OpenAI Reasoning models](https://platform.openai.com/docs/guides/reasoning)
+    - [Anthropic Extended Thinking](https://docs.anthropic.com/en/docs/build-with-claude/extended-thinking)
+    - [Gemini Thinking](https://ai.google.dev/gemini-api/docs/thinking)

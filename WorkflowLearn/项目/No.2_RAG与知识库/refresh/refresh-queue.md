@@ -40,6 +40,14 @@
   - `reason`: chunk、Top-K、ranker、hybrid 权重、价格和 API 字段都属于时效层
   - `refresh_when`: 只有在真实选型或实现前才核验；课程稳定层只保留判断原则
 
+- `Graph RAG / 知识图谱工具链`
+  - `reason`: 图谱构建、实体抽取、关系索引和与向量检索的结合方式仍在快速产品化
+  - `refresh_when`: 场景需要实体关系解释、路径推理或跨文档关系追踪时
+
+- `agentic retrieval 实现模式`
+  - `reason`: 何时检索、如何停止、query budget 和 trace 能力受平台与框架影响
+  - `refresh_when`: 需要多轮检索、多源检索或 agent 自主决定检索策略时
+
 ## 已处理
 
 - `chunk_size / overlap / Top-K 默认值`

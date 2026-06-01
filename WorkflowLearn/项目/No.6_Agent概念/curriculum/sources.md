@@ -12,6 +12,8 @@
 - [Anthropic: Effective harnesses for long-running agents](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents)
 - [OpenAI Tools](https://developers.openai.com/api/docs/guides/tools)
 - [Gemini API Docs](https://ai.google.dev/gemini-api/docs)
+- [OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications)
+- [OpenAI Reasoning models](https://platform.openai.com/docs/guides/reasoning)
 
 ## 2026-06-01 刷新方向
 
@@ -20,10 +22,12 @@
 - 长流程 harness 继续作为 agent 可交付性的主线：initializer、tool registry、progress artifact、checkpoint、恢复和测试要一起设计。
 - Tool registry / hosted tools / computer use 属于产品形态快速变化层，只用于提示刷新方向，不写成长期断言。
 - 多 Agent 协作只作为 eval 后的升级方案；稳定课程先讲 handoff、owner、冲突处理和责任边界。
+- OWASP LLM 风险框架把 prompt injection、sensitive information disclosure、excessive agency 等列为 LLM 应用风险，支持把 agent security 纳入稳定教学。
+- Reasoning model 的内部推理预算和工具链交互会改变 agent 的成本与延迟，因此成本模型要覆盖 reasoning / tool / retry / HITL，而不只算模型输入输出。
 
 ## 当前结论
 
-- 稳定主干应围绕 `agent vs workflow judgment -> tool contract -> state / resume -> harness -> observability -> handoff`。
+- 稳定主干应围绕 `agent vs workflow judgment -> tool contract -> state / resume -> harness -> observability -> handoff -> security -> cost model`。
 - 具体框架名、平台可用性和 demo 快照属于时效层，不进入长期主干。
 
 ## 后续需补的外部核验方向
@@ -33,3 +37,5 @@
 - long-running harness 的测试与恢复实践
 - multi-agent coordination 的 eval 证据与适用边界
 - Computer Use 的权限、安全和人工接管边界
+- agent prompt injection / tool output injection 的最新风险分类
+- reasoning effort、工具调用与重试成本的真实计费方式

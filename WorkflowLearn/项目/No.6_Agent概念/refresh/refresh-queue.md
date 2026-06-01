@@ -28,8 +28,20 @@
   - `reason`: 跟可用工具、状态管理、checkpoint、恢复和测试能力强绑定
   - `refresh_when`: 设计长任务 runtime、恢复机制或上线 gate 时
 
+- `agent prompt injection / tool output injection`
+  - `reason`: 攻击面、缓解实践、平台护栏和 OWASP 风险分类仍在演进
+  - `refresh_when`: agent 会读取网页、检索文档、外部文件或工具返回，并可能执行动作时
+
+- `agent 成本与 reasoning / tool 调用计费`
+  - `reason`: reasoning token、工具调用、搜索、检索、存储、日志与人工审核价格都随平台变化
+  - `refresh_when`: 写 ROI、预算、pricing 或上线容量评估时
+
 ## 已处理
 
 - `Agent / Workflow 主线`
   - `checked_on`: `2026-06-01`
   - `outcome`: 已确认课程主线应围绕 workflow vs agent judgment、tool contract / MCP、state / resume、long-running harness、observability、HITL / handoff 和 eval 组织
+
+- `Agent 安全与成本主线`
+  - `checked_on`: `2026-06-01`
+  - `outcome`: 已补入 stable 概念层；具体攻击分类、平台护栏和价格仍留在刷新队列

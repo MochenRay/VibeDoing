@@ -51,3 +51,17 @@
 - 交付物：`industry-handoff-rule.md`
 - 必须包含：风险等级、可逆性、责任主体、人工 SLA、触发条件、升级路径
 - 通过条件：不能只写“低置信度转人工”，必须说明为什么这个行业要在这个节点接管
+
+## Lab 8：AI User Research Plan
+
+- 目标：为一个 AI feature 设计用户研究与信任校准方案。
+- 交付物：`ai-user-research-plan.md`
+- 必须包含：任务脚本、Wizard of Oz 边界、信任问题、失败场景、人工接管、观察指标
+- 通过条件：能验证用户是否真的理解并接受 AI 的能力边界。
+
+## Lab 9：Incident Response Memo
+
+- 目标：为一次高风险 AI 事故写响应方案。
+- 交付物：`incident-response-memo.md`
+- 必须包含：事故分级、暂停/降级、用户通知、owner、复盘材料、eval 回灌、产品修复项
+- 通过条件：事故处理能回到产品机制，而不是只停留在道歉和补救。

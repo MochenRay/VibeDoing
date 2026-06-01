@@ -28,11 +28,19 @@
   - `reason`: 现成平台、托管工具、检索能力和集成边界会持续变化
   - `refresh_when`: 做供应商 shortlist、采购评审或自研边界判断时
 
+- `vendor lock-in 与迁移成本`
+  - `reason`: API、数据格式、eval 工具、权限、日志、价格和合同条款都会改变切换成本
+  - `refresh_when`: 准备签供应商、采用托管向量库、agent 平台或专有工具链时
+
 - `多模态产品能力快照`
   - `reason`: 图像、语音、视频能力和质量边界变化快
   - `refresh_when`: 需要做 AI-native surface 选型时
 
 ## 已处理
+
+- `solution routing / vendor lock-in 稳定主线`
+  - `checked_on`: `2026-06-01`
+  - `outcome`: 已补入稳定层；具体供应商能力、折扣、合同条款和迁移工具仍留在刷新队列
 
 - `技术选型主线`
   - `checked_on`: `2026-04-16`
